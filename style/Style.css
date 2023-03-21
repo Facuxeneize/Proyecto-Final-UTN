@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* estas son las fuentes */
+header, h1, h2{
+font-family: 'Teko', sans-serif;
+}
+p{
+    font-family: 'Orbitron', sans-serif;
+}
 /* Estos son los estilos del header */
 .panel{
     display: flex;
@@ -23,6 +30,7 @@ header ul li{
  border: 1px solid rgb(207, 200, 200);
  padding: 10px;
  border-radius: 5px;
+ color: white;
 }
 header ul{
     display: flex;

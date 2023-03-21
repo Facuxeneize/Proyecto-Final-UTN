@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* este es el fondo */
+body{
+    background-image:url)
+}
 /* estas son las fuentes */
 header, h1, h2{
 font-family: 'Teko', sans-serif;
@@ -39,4 +43,25 @@ header ul{
     display: flex;
     gap: 20px;
     margin: 70px auto;
-}  
+} 
+/* estos son los estilos del main  */
+/* estos son los estilos de la sinopsis  */
+.sinop{
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    padding: 30px;
+    gap: 20px;
+    border: 1px solid rgb(212, 206, 206);
+    border-radius: 20px;
+}
+.sinop div img{
+    width: 450px;
+    height: 350px;
+    border-radius: 50px;
+}
+.content-sinop p{
+    margin-top: 10px;
+}

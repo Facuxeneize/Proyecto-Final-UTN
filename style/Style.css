@@ -81,7 +81,7 @@ header ul {
     text-shadow: 2px 2px 0 black;
     padding: 30px;
     gap: 20px;
-    border: 1px solid rgb(212, 206, 206);
+    border: 1px solid #28652f;
     border-radius: 20px;
     backdrop-filter: blur(10px);
     min-height: 100vh;
@@ -102,7 +102,7 @@ header ul {
     margin: 20px 40px;
     padding: 30px;
     backdrop-filter: blur(10px);
-    border: 1px solid rgb(212, 206, 206);
+    border: 1px solid #28652f;
     border-radius: 20px;
 }
 

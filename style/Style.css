@@ -12,12 +12,16 @@ body{
     background-attachment: fixed;
 }
 /* estas son las fuentes */
-header, h1, h2{
+header, h1, h2, h3, h4{
 font-family: 'Teko', sans-serif;
 font-size: 30px;
+color: rgb(213, 223, 231);
+text-shadow: 2px 2px 0 black;
 }
 p{
     font-family: 'Orbitron', sans-serif;
+    color: rgb(213, 223, 231);
+    text-shadow: 2px 2px 0 black;
 }
 /* Estos son los estilos del header */
 .panel{
@@ -50,7 +54,7 @@ header ul{
 } 
 /* estos son los estilos del main  */
 /* estos son los estilos de la sinopsis  */
-.sinop-seasons{
+.sinop{
     margin: 20px 40px;
     display: flex;
     align-items: center;
@@ -62,7 +66,7 @@ header ul{
     border: 1px solid rgb(212, 206, 206);
     border-radius: 20px;
 }
-.sinop-seasons div img{
+.sinop div img{
     width: 450px;
     height: 350px;
     border-radius: 50px;

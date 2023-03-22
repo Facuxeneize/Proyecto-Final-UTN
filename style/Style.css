@@ -13,7 +13,7 @@ body {
     background-attachment: fixed;
 }
 
-/* estas son las fuentes */
+/* estas son las fuentes y estilos de letras */
 header,
 h1,
 h2,
@@ -36,11 +36,12 @@ p {
     display: flex;
     background-color: #161c25;
     padding: 20px;
-    margin: 10px;
+    margin: 10px 10px;
     justify-content: space-between;
     width: 600;
     border-radius: 10px;
 }
+
 
 header img {
     height: 150px;
@@ -113,3 +114,18 @@ header ul {
 .season p {
     margin: 10px 0;
 }
+/* estos son los estilos de los personajes */
+
+/* estos son los estilos para ver la serie*/
+.vertv{
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.vertv img{
+    border-radius: 45%;
+    margin: 1px 40px;
+}
+/* estos son los estilos del footer */
+

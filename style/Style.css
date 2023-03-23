@@ -115,7 +115,25 @@ header ul {
     margin: 10px 0;
 }
 /* estos son los estilos de los personajes */
-
+#container-charac{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.item-grid{
+    border: 1px solid #28652f;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.item-grid img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
 /* estos son los estilos para ver la serie*/
 .vertv{
     display: flex;

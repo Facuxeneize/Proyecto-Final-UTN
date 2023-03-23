@@ -128,4 +128,42 @@ header ul {
     margin: 1px 40px;
 }
 /* estos son los estilos del footer */
-
+.container-footer{
+    display: flex;
+    background-color: #161c25;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #28652f;
+}
+.credit{
+    margin: 20px 5px;
+}
+.credit p{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.credit p:hover{
+    background-color: #27354b;
+}
+.contacto{
+    display: flex;
+    margin: 55px; 
+    gap: 25px;
+}
+.contacto a{
+    text-decoration: none;
+}
+.contacto img{
+  height: 50px;
+  width: 50px;
+}
+.contact-item{
+    padding: 9px;
+    border-radius: 10px;
+}
+.contact-item:hover{
+ background-color: #27354b;
+}

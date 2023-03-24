@@ -38,17 +38,9 @@ p {
     padding: 20px;
     margin: 10px 10px;
     justify-content: space-between;
-    width: 600;
+
     border-radius: 10px;
 }
-.titu{
-    text-align: center;
-    font-size: 60px;
-    border: 3px solid #28652f;
-    margin: 10px 20px;
-    border-radius: 30px;
-}
-
 header img {
     height: 150px;
     width: 400px;
@@ -121,6 +113,13 @@ header ul {
     margin: 10px 0;
 }
 /* estos son los estilos de los personajes */
+.titu{
+    text-align: center;
+    font-size: 60px;
+    border: 3px solid #28652f;
+    margin: 10px 20px;
+    border-radius: 30px;
+}
 #container-charac{
     display: flex;
     flex-wrap: wrap;
@@ -198,4 +197,52 @@ header ul {
 }
 .contact-item:hover{
  background-color: #27354b;
+}
+/* Media queries */
+@media (max-width: 880px){
+    header{
+        flex-direction: column;
+        margin: 5px 5px;
+        padding: 5px;
+    }
+    header img {
+        height: 90px;
+        width: 200px;
+        margin: 10px;
+    
+    }
+    header ul {
+        display: flex;
+        gap: 3px;
+        margin: 10px auto;
+    }
+    .sinop {
+        flex-direction: column;
+    }
+    .sinop div img{
+        width: 350px;
+        height: 250px;
+    }
+}
+@media (max-width: 480px){
+    header ul {
+        display: block;
+        gap: 5px;
+        margin: 30px auto;
+    }
+    .sinop div img{
+        width: 250px;
+        height: 150px;
+    }
+    .vertv{
+        display: block;
+    }
+    .container-footer{
+        display: block;
+        flex-direction: column;
+    }
+    .titu{
+        font-size: 30px;
+        margin: 5px 15px;
+    }
 }

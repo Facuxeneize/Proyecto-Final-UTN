@@ -246,4 +246,7 @@ header ul {
         font-size: 30px;
         margin: 5px 15px;
     }
+    .contacto{
+        display: block;
+    }
 }

@@ -236,6 +236,7 @@ header ul {
     }
     .vertv{
         display: block;
+        margin: 65px;
     }
     .container-footer{
         display: block;
